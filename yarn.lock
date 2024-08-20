@@ -1218,14 +1218,7 @@
   resolved "https://registry.yarnpkg.com/@babel/regjsgen/-/regjsgen-0.8.0.tgz#f0ba69b075e1f05fb2825b7fad991e7adbb18310"
   integrity sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.15.4", "@babel/runtime@^7.17.9", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.7.tgz#f4f0d5530e8dbdf59b3451b9b3e594b6ba082e12"
-  integrity sha512-UwgBRMjJP+xv857DCngvqXI3Iq6J4v0wXmwc6sapg+zyhbwmQX67LUEFrkK5tbyJ30jGuG3ZvWpBiB9LCy1kWw==
-  dependencies:
-    regenerator-runtime "^0.14.0"
-
-"@babel/runtime@^7.13.10":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.15.4", "@babel/runtime@^7.17.9", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
   version "7.24.8"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.8.tgz#5d958c3827b13cc6d05e038c07fb2e5e3420d82e"
   integrity sha512-5F7SDGs1T72ZczbRwbGO9lQi0NLjQxzl6i4lJxLxfW9U5UluCSyEJeniWvnhl3/euNiqQVbo8zruhsDfid0esA==
@@ -1793,15 +1786,20 @@
     emojibase "^15.0.0"
     emojibase-data "^15.0.0"
 
-"@matrix-org/matrix-sdk-crypto-wasm@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@matrix-org/matrix-sdk-crypto-wasm/-/matrix-sdk-crypto-wasm-5.0.0.tgz#f45a7bccaad218c05bcf9e7c8ca783c9d9a07af4"
-  integrity sha512-37ASjCKSTU5ycGfkP+LUXG4Ok6OAf6vE+1qU6uwWhe6FwadCS3vVWzJYd/3d9BQFwsx4GhFTIAXrW4iLG85rmQ==
+"@matrix-org/matrix-sdk-crypto-wasm@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@matrix-org/matrix-sdk-crypto-wasm/-/matrix-sdk-crypto-wasm-7.0.0.tgz#8d6abdb9ded8656cc9e2a7909913a34bf3fc9b3a"
+  integrity sha512-MOencXiW/gI5MuTtCNsuojjwT5DXCrjMqv9xOslJC9h2tPdLFFFMGr58dY5Lis4DRd9MRWcgrGowUIHOqieWTA==
 
 "@matrix-org/matrix-wysiwyg@2.37.4":
   version "2.37.4"
   resolved "https://registry.yarnpkg.com/@matrix-org/matrix-wysiwyg/-/matrix-wysiwyg-2.37.4.tgz#bd9b46051a21c9986477e3a83a1417b1ee926d81"
   integrity sha512-4OtBWAHNAOu9P5C6jOIeHlu4ChwV2YusxnbGuN20IceC4bT2h38flZQgm0x9/jgHfF0LwnKUwKXsxtRoq8xW0g==
+
+"@matrix-org/olm@3.2.15":
+  version "3.2.15"
+  resolved "https://registry.yarnpkg.com/@matrix-org/olm/-/olm-3.2.15.tgz#55f3c1b70a21bbee3f9195cecd6846b1083451ec"
+  integrity sha512-S7lOrndAK9/8qOtaTq/WhttJC/o4GAzdfK0MUPpo8ApzsJEC0QjtwrkC3KBXdFP1cD1MXi/mlKR7aaoVMKgs6Q==
 
 "@matrix-org/react-sdk-module-api@^2.4.0":
   version "2.4.0"
@@ -3453,10 +3451,10 @@ balanced-match@^2.0.0:
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-2.0.0.tgz#dc70f920d78db8b858535795867bf48f820633d9"
   integrity sha512-1ugUSr8BHXRnK23KfuYS+gVMC3LB8QGH9W1iGtDPsNWoQbgtXSExkBu2aDR4epiGWZOjZsj6lDl/N/AqqTC3UA==
 
-base-x@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/base-x/-/base-x-4.0.0.tgz#d0e3b7753450c73f8ad2389b5c018a4af7b2224a"
-  integrity sha512-FuwxlW4H5kh37X/oW59pwTzzTKRzfrrQwhmyspRM7swOEZcHtDZSCt45U6oKgtuFE+WYPblePMVIPR4RZrh/hw==
+base-x@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/base-x/-/base-x-5.0.0.tgz#6d835ceae379130e1a4cb846a70ac4746f28ea9b"
+  integrity sha512-sMW3VGSX1QWVFA6l8U62MLKz29rRfpTlYdCqLdpLo1/Yd4zZwSbnUaDfciIAowAqvq7YFnWq9hrhdg1KYgc1lQ==
 
 base64-arraybuffer@^1.0.2:
   version "1.0.2"
@@ -3553,12 +3551,12 @@ browserslist@^4.22.2, browserslist@^4.23.0:
     node-releases "^2.0.14"
     update-browserslist-db "^1.0.13"
 
-bs58@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/bs58/-/bs58-5.0.0.tgz#865575b4d13c09ea2a84622df6c8cbeb54ffc279"
-  integrity sha512-r+ihvQJvahgYT50JD05dyJNKlmmSlMoOGwn1lCcEzanPglg7TxYjioQUYehQ9mAR/+hOSd2jRc/Z2y5UxBymvQ==
+bs58@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/bs58/-/bs58-6.0.0.tgz#a2cda0130558535dd281a2f8697df79caaf425d8"
+  integrity sha512-PD0wEnEYg6ijszw/u8s+iI3H17cTymlrwkKhDhPZq+Sokl3AU4htyBFTjAeNAlCCmg0f53g6ih3jATyCKftTfw==
   dependencies:
-    base-x "^4.0.0"
+    base-x "^5.0.0"
 
 bser@2.1.1:
   version "2.1.1"
@@ -6808,18 +6806,20 @@ matrix-events-sdk@0.0.1:
   integrity sha512-1QEOsXO+bhyCroIe2/A5OwaxHvBm7EsSQ46DEDn8RBIfQwN5HWBpFvyWWR4QY0KHPPnnJdI99wgRiAl7Ad5qaA==
 
 "matrix-js-sdk@github:matrix-org/matrix-js-sdk#develop":
-  version "33.1.0"
-  resolved "https://codeload.github.com/matrix-org/matrix-js-sdk/tar.gz/987ec1e62fcdbd626d5abcba5e9dcdaa9eaaa758"
+  version "34.3.1"
+  uid "340bbe1a8fae05a514ac133e6e9b549326854957"
+  resolved "https://codeload.github.com/matrix-org/matrix-js-sdk/tar.gz/340bbe1a8fae05a514ac133e6e9b549326854957"
   dependencies:
     "@babel/runtime" "^7.12.5"
-    "@matrix-org/matrix-sdk-crypto-wasm" "^5.0.0"
+    "@matrix-org/matrix-sdk-crypto-wasm" "^7.0.0"
+    "@matrix-org/olm" "3.2.15"
     another-json "^0.2.0"
-    bs58 "^5.0.0"
+    bs58 "^6.0.0"
     content-type "^1.0.4"
     jwt-decode "^4.0.0"
     loglevel "^1.7.1"
     matrix-events-sdk "0.0.1"
-    matrix-widget-api "^1.6.0"
+    matrix-widget-api "^1.8.2"
     oidc-client-ts "^3.0.1"
     p-retry "4"
     sdp-transform "^2.14.1"
@@ -6837,10 +6837,10 @@ matrix-web-i18n@^3.2.1:
     minimist "^1.2.8"
     walk "^2.3.15"
 
-matrix-widget-api@^1.5.0, matrix-widget-api@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/matrix-widget-api/-/matrix-widget-api-1.6.0.tgz#f0075411edffc6de339580ade7e6e6e6edb01af4"
-  integrity sha512-VXIJyAZ/WnBmT4C7ePqevgMYGneKMCP/0JuCOqntSsaNlCRHJvwvTxmqUU+ufOpzIF5gYNyIrAjbgrEbK3iqJQ==
+matrix-widget-api@^1.5.0, matrix-widget-api@^1.8.2:
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/matrix-widget-api/-/matrix-widget-api-1.8.2.tgz#28d344502a85593740f560b0f8120e474a054505"
+  integrity sha512-kdmks3CvFNPIYN669Y4rO13KrazDvX8KHC7i6jOzJs8uZ8s54FNkuRVVyiQHeVCSZG5ixUqW9UuCj9lf03qxTQ==
   dependencies:
     "@types/events" "^3.0.0"
     events "^3.2.0"
